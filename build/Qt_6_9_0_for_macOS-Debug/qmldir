@@ -1,0 +1,8 @@
+module untitled10
+linktarget appuntitled10plugin
+optional plugin appuntitled10plugin
+classname untitled10Plugin
+typeinfo appuntitled10.qmltypes
+prefer :/qt/qml/untitled10/
+Main 1.0 Main.qml
+

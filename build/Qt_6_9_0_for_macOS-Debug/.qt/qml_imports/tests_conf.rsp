@@ -1,0 +1,9 @@
+-rootPath
+/Users/andreyshabunin/untitled10
+-cmake-output
+-output-file
+/Users/andreyshabunin/untitled10/build/Qt_6_9_0_for_macOS-Debug/.qt/qml_imports/tests_conf.cmake
+-importPath
+/Users/andreyshabunin/untitled10/build/Qt_6_9_0_for_macOS-Debug
+-importPath
+/Users/andreyshabunin/Qt/6.9.0/macos/qml

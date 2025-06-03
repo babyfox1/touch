@@ -1,0 +1,128 @@
+{
+    "classes": [
+        {
+            "className": "MeasurementData",
+            "lineNumber": 7,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "frequency",
+                    "read": "frequency",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false,
+                    "write": "setFrequency"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "s11_real",
+                    "read": "s11Real",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false,
+                    "write": "setS11Real"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "s11_imag",
+                    "read": "s11Imag",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false,
+                    "write": "setS11Imag"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "s11_logmag",
+                    "read": "s11Logmag",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false,
+                    "write": "setS11Logmag"
+                }
+            ],
+            "qualifiedClassName": "MeasurementData",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "FileParser",
+            "lineNumber": 35,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "filePath",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "parseFile",
+                    "returnType": "QVariantList"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "FileParser",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "className": "DataProcessor",
+            "lineNumber": 41,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "data",
+                            "type": "QVariantList"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "processData",
+                    "returnType": "QVariantList"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "DataProcessor",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "measurementdata.h",
+    "outputRevision": 69
+}

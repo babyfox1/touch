@@ -1,0 +1,62 @@
+{
+    "classes": [
+        {
+            "className": "FileParserTest",
+            "lineNumber": 7,
+            "object": true,
+            "qualifiedClassName": "FileParserTest",
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 0,
+                    "name": "initTestCase",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 1,
+                    "name": "cleanupTestCase",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 2,
+                    "name": "testParseValidFile",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 3,
+                    "name": "testParseEmptyFile",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 4,
+                    "name": "testParseFileWithComments",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 5,
+                    "name": "testParseFileWithInvalidLines",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 6,
+                    "name": "testParseNonexistentFile",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "tst_fileparser.cpp",
+    "outputRevision": 69
+}
